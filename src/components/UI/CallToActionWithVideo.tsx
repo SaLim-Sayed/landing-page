@@ -91,7 +91,7 @@ export default function CallToActionWithVideo() {
           w={"full"}
         >
           <Blob
-            w={"150%"}
+            w={{ base: "100%", md: "150%" }}
             h={"150%"}
             position={"absolute"}
             top={"-20%"}
